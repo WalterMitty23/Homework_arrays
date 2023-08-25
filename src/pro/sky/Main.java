@@ -51,7 +51,7 @@ public class Main {
         //TASK 1 & 2
         System.out.println("Task 1 & 2");
 
-        int[] array = new int[] {1, 2, 3};
+        int[] array = new int[]{1, 2, 3};
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i]);
             if (i < array.length - 1) {
@@ -68,7 +68,6 @@ public class Main {
                 System.out.print(", ");
             }
         }
-
         //TASK 3
         System.out.println("\nTask 3");
 
@@ -101,4 +100,5 @@ public class Main {
         System.out.println(Arrays.toString(array5));
 
     }
+
 }
